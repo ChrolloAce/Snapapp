@@ -1,0 +1,27 @@
+{
+  "rules": {
+    "chat": {
+      "messages": {
+        ".read": "auth != null",
+        ".write": "auth != null",
+        "$messageId": {
+          ".validate": "newData.hasChildren(['authorId', 'authorName', 'content', 'timestamp'])",
+          "authorId": {
+            ".validate": "newData.val() === auth.uid"
+          },
+          "authorName": {
+            ".validate": "newData.isString() && newData.val().length > 0 && newData.val().length <= 50"
+          },
+          "content": {
+            ".validate": "newData.isString() && newData.val().length <= 1000 && newData.val().length > 0"
+          },
+          "timestamp": {
+            ".validate": "newData.isNumber() && newData.val() <= (now + 60000) && newData.val() >= (now - 60000)"
+          }
+        }
+      }
+    },
+    ".read": false,
+    ".write": false
+  }
+} 

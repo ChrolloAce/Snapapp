@@ -6,6 +6,20 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		BF9BB9602D6AECBB00B565B5 /* SuperwallKit in Frameworks */ = {isa = PBXBuildFile; productRef = BF9BB95F2D6AECBB00B565B5 /* SuperwallKit */; };
+		BF9BB9692D6AF6E100B565B5 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF9BB9682D6AF6E100B565B5 /* StoreKit.framework */; };
+		BFA550242D6A4A38004D100C /* FirebaseAppCheck in Frameworks */ = {isa = PBXBuildFile; productRef = BFA550232D6A4A38004D100C /* FirebaseAppCheck */; };
+		BFA550262D6A4A38004D100C /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = BFA550252D6A4A38004D100C /* FirebaseAuth */; };
+		BFA550282D6A4A38004D100C /* FirebaseCore in Frameworks */ = {isa = PBXBuildFile; productRef = BFA550272D6A4A38004D100C /* FirebaseCore */; };
+		BFA5502A2D6A4A38004D100C /* FirebaseDatabase in Frameworks */ = {isa = PBXBuildFile; productRef = BFA550292D6A4A38004D100C /* FirebaseDatabase */; };
+		BFA5502C2D6A4A38004D100C /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = BFA5502B2D6A4A38004D100C /* FirebaseFirestore */; };
+		BFA5502E2D6A4A38004D100C /* FirebaseFirestoreCombine-Community in Frameworks */ = {isa = PBXBuildFile; productRef = BFA5502D2D6A4A38004D100C /* FirebaseFirestoreCombine-Community */; };
+		BFA550312D6A4A50004D100C /* GoogleSignIn in Frameworks */ = {isa = PBXBuildFile; productRef = BFA550302D6A4A50004D100C /* GoogleSignIn */; };
+		BFA550332D6A4A50004D100C /* GoogleSignInSwift in Frameworks */ = {isa = PBXBuildFile; productRef = BFA550322D6A4A50004D100C /* GoogleSignInSwift */; };
+		BFA550362D6A4A76004D100C /* Lottie in Frameworks */ = {isa = PBXBuildFile; productRef = BFA550352D6A4A76004D100C /* Lottie */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		BFE0AF3A2D66924F0047AD6F /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -24,14 +38,28 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		BF9BB9682D6AF6E100B565B5 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
 		BFE0AF282D66924C0047AD6F /* Snapapp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Snapapp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BFE0AF392D66924F0047AD6F /* SnapappTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SnapappTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BFE0AF432D66924F0047AD6F /* SnapappUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SnapappUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		BF822DA62D6F82C000A1F18E /* Exceptions for "Snapapp" folder in "Snapapp" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = BFE0AF272D66924C0047AD6F /* Snapapp */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		BFE0AF2A2D66924C0047AD6F /* Snapapp */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				BF822DA62D6F82C000A1F18E /* Exceptions for "Snapapp" folder in "Snapapp" target */,
+			);
 			path = Snapapp;
 			sourceTree = "<group>";
 		};
@@ -52,6 +80,17 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BFA550242D6A4A38004D100C /* FirebaseAppCheck in Frameworks */,
+				BFA550282D6A4A38004D100C /* FirebaseCore in Frameworks */,
+				BFA550362D6A4A76004D100C /* Lottie in Frameworks */,
+				BF9BB9602D6AECBB00B565B5 /* SuperwallKit in Frameworks */,
+				BFA5502A2D6A4A38004D100C /* FirebaseDatabase in Frameworks */,
+				BFA550332D6A4A50004D100C /* GoogleSignInSwift in Frameworks */,
+				BFA5502E2D6A4A38004D100C /* FirebaseFirestoreCombine-Community in Frameworks */,
+				BFA5502C2D6A4A38004D100C /* FirebaseFirestore in Frameworks */,
+				BFA550262D6A4A38004D100C /* FirebaseAuth in Frameworks */,
+				BFA550312D6A4A50004D100C /* GoogleSignIn in Frameworks */,
+				BF9BB9692D6AF6E100B565B5 /* StoreKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,12 +111,21 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		BF9BB9672D6AF6E100B565B5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BF9BB9682D6AF6E100B565B5 /* StoreKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		BFE0AF1F2D66924C0047AD6F = {
 			isa = PBXGroup;
 			children = (
 				BFE0AF2A2D66924C0047AD6F /* Snapapp */,
 				BFE0AF3C2D66924F0047AD6F /* SnapappTests */,
 				BFE0AF462D66924F0047AD6F /* SnapappUITests */,
+				BF9BB9672D6AF6E100B565B5 /* Frameworks */,
 				BFE0AF292D66924C0047AD6F /* Products */,
 			);
 			sourceTree = "<group>";
@@ -112,6 +160,16 @@
 			);
 			name = Snapapp;
 			packageProductDependencies = (
+				BFA550232D6A4A38004D100C /* FirebaseAppCheck */,
+				BFA550252D6A4A38004D100C /* FirebaseAuth */,
+				BFA550272D6A4A38004D100C /* FirebaseCore */,
+				BFA550292D6A4A38004D100C /* FirebaseDatabase */,
+				BFA5502B2D6A4A38004D100C /* FirebaseFirestore */,
+				BFA5502D2D6A4A38004D100C /* FirebaseFirestoreCombine-Community */,
+				BFA550302D6A4A50004D100C /* GoogleSignIn */,
+				BFA550322D6A4A50004D100C /* GoogleSignInSwift */,
+				BFA550352D6A4A76004D100C /* Lottie */,
+				BF9BB95F2D6AECBB00B565B5 /* SuperwallKit */,
 			);
 			productName = Snapapp;
 			productReference = BFE0AF282D66924C0047AD6F /* Snapapp.app */;
@@ -195,6 +253,12 @@
 			);
 			mainGroup = BFE0AF1F2D66924C0047AD6F;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				BFA550222D6A4A38004D100C /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+				BFA5502F2D6A4A50004D100C /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */,
+				BFA550342D6A4A76004D100C /* XCRemoteSwiftPackageReference "lottie-ios" */,
+				BF9BB95E2D6AECBB00B565B5 /* XCRemoteSwiftPackageReference "Superwall-iOS" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = BFE0AF292D66924C0047AD6F /* Products */;
 			projectDirPath = "";
@@ -390,12 +454,14 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = Snapapp/Snapapp.entitlements;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 5;
 				DEVELOPMENT_ASSET_PATHS = "\"Snapapp/Preview Content\"";
 				DEVELOPMENT_TEAM = 5L2794TA8F;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
-				GENERATE_INFOPLIST_FILE = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = Snapapp/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Snapout;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -404,21 +470,21 @@
 				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 15.2;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = AttractByPursuit.Snapapp;
+				MARKETING_VERSION = 5.0;
+				NEW_SETTING = "";
+				PRODUCT_BUNDLE_IDENTIFIER = ABP.AttractByPursuit.Snapapp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2,7";
-				XROS_DEPLOYMENT_TARGET = 2.2;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -429,12 +495,14 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = Snapapp/Snapapp.entitlements;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 5;
 				DEVELOPMENT_ASSET_PATHS = "\"Snapapp/Preview Content\"";
 				DEVELOPMENT_TEAM = 5L2794TA8F;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
-				GENERATE_INFOPLIST_FILE = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = Snapapp/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Snapout;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -443,21 +511,21 @@
 				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 15.2;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = AttractByPursuit.Snapapp;
+				MARKETING_VERSION = 5.0;
+				NEW_SETTING = "";
+				PRODUCT_BUNDLE_IDENTIFIER = ABP.AttractByPursuit.Snapapp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2,7";
-				XROS_DEPLOYMENT_TARGET = 2.2;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -475,10 +543,10 @@
 				PRODUCT_BUNDLE_IDENTIFIER = AttractByPursuit.SnapappTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
+				SUPPORTED_PLATFORMS = iphoneos;
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2,7";
+				TARGETED_DEVICE_FAMILY = 1;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Snapapp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Snapapp";
 				XROS_DEPLOYMENT_TARGET = 2.2;
 			};
@@ -498,10 +566,10 @@
 				PRODUCT_BUNDLE_IDENTIFIER = AttractByPursuit.SnapappTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
+				SUPPORTED_PLATFORMS = iphoneos;
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2,7";
+				TARGETED_DEVICE_FAMILY = 1;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Snapapp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Snapapp";
 				XROS_DEPLOYMENT_TARGET = 2.2;
 			};
@@ -520,10 +588,10 @@
 				PRODUCT_BUNDLE_IDENTIFIER = AttractByPursuit.SnapappUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
+				SUPPORTED_PLATFORMS = iphoneos;
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2,7";
+				TARGETED_DEVICE_FAMILY = 1;
 				TEST_TARGET_NAME = Snapapp;
 				XROS_DEPLOYMENT_TARGET = 2.2;
 			};
@@ -542,10 +610,10 @@
 				PRODUCT_BUNDLE_IDENTIFIER = AttractByPursuit.SnapappUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
+				SUPPORTED_PLATFORMS = iphoneos;
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2,7";
+				TARGETED_DEVICE_FAMILY = 1;
 				TEST_TARGET_NAME = Snapapp;
 				XROS_DEPLOYMENT_TARGET = 2.2;
 			};
@@ -591,6 +659,94 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		BF9BB95E2D6AECBB00B565B5 /* XCRemoteSwiftPackageReference "Superwall-iOS" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/superwall/Superwall-iOS";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 4.0.0;
+			};
+		};
+		BFA550222D6A4A38004D100C /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 11.8.1;
+			};
+		};
+		BFA5502F2D6A4A50004D100C /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/google/GoogleSignIn-iOS";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 8.0.0;
+			};
+		};
+		BFA550342D6A4A76004D100C /* XCRemoteSwiftPackageReference "lottie-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/airbnb/lottie-ios.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 4.5.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		BF9BB95F2D6AECBB00B565B5 /* SuperwallKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = BF9BB95E2D6AECBB00B565B5 /* XCRemoteSwiftPackageReference "Superwall-iOS" */;
+			productName = SuperwallKit;
+		};
+		BFA550232D6A4A38004D100C /* FirebaseAppCheck */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = BFA550222D6A4A38004D100C /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAppCheck;
+		};
+		BFA550252D6A4A38004D100C /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = BFA550222D6A4A38004D100C /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		BFA550272D6A4A38004D100C /* FirebaseCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = BFA550222D6A4A38004D100C /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseCore;
+		};
+		BFA550292D6A4A38004D100C /* FirebaseDatabase */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = BFA550222D6A4A38004D100C /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseDatabase;
+		};
+		BFA5502B2D6A4A38004D100C /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = BFA550222D6A4A38004D100C /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+		BFA5502D2D6A4A38004D100C /* FirebaseFirestoreCombine-Community */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = BFA550222D6A4A38004D100C /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = "FirebaseFirestoreCombine-Community";
+		};
+		BFA550302D6A4A50004D100C /* GoogleSignIn */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = BFA5502F2D6A4A50004D100C /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */;
+			productName = GoogleSignIn;
+		};
+		BFA550322D6A4A50004D100C /* GoogleSignInSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = BFA5502F2D6A4A50004D100C /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */;
+			productName = GoogleSignInSwift;
+		};
+		BFA550352D6A4A76004D100C /* Lottie */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = BFA550342D6A4A76004D100C /* XCRemoteSwiftPackageReference "lottie-ios" */;
+			productName = Lottie;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = BFE0AF202D66924C0047AD6F /* Project object */;
 }

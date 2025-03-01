@@ -1,0 +1,75 @@
+{
+  "identifier" : "21642266",
+  "nonRenewingSubscriptions" : [
+
+  ],
+  "products" : [
+
+  ],
+  "settings" : {
+    "_applicationInternalID" : "6475197161",
+    "_developerTeamID" : "5L2794TA8F",
+    "_lastSynchronizedDate" : 711752160.86452603
+  },
+  "subscriptionGroups" : [
+    {
+      "id" : "21642266",
+      "subscriptions" : [
+        {
+          "adHocOffers" : [
+
+          ],
+          "codeOffers" : [
+
+          ],
+          "displayPrice" : "12.99",
+          "familyShareable" : false,
+          "groupNumber" : 1,
+          "internalID" : "6475197161",
+          "introductoryOffer" : null,
+          "localizations" : [
+            {
+              "description" : "Full access to all premium features",
+              "displayName" : "Premium Monthly Access",
+              "locale" : "en_US"
+            }
+          ],
+          "productID" : "Premium.Access.Monthly",
+          "recurringSubscriptionPeriod" : "P1M",
+          "referenceName" : "Premium Monthly",
+          "subscriptionGroupID" : "21642266",
+          "type" : "RecurringSubscription"
+        },
+        {
+          "adHocOffers" : [
+
+          ],
+          "codeOffers" : [
+
+          ],
+          "displayPrice" : "29.99",
+          "familyShareable" : false,
+          "groupNumber" : 2,
+          "internalID" : "6475197162",
+          "introductoryOffer" : null,
+          "localizations" : [
+            {
+              "description" : "Full access to all premium features",
+              "displayName" : "Premium Yearly Access",
+              "locale" : "en_US"
+            }
+          ],
+          "productID" : "Premium.Access.Yearly",
+          "recurringSubscriptionPeriod" : "P1Y",
+          "referenceName" : "Premium Yearly",
+          "subscriptionGroupID" : "21642266",
+          "type" : "RecurringSubscription"
+        }
+      ]
+    }
+  ],
+  "version" : {
+    "major" : 3,
+    "minor" : 0
+  }
+} 
